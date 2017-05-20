@@ -10,7 +10,9 @@ script:
 deploy:
   provider: releases
   api_key:
-    file: socket2stdout
+    secure: LV5baPk9sTdKXI3ECgM4nfWja66LXsCvSKPpiqMDE3LKeFBpjfyuwgU+RG0ktIRwk30HoqCUmLPhFy1i8268di74fJfXakDRyGOQbNC1LPv/Ei9nIWBx1yW5oG+SsOmUz/BgK1l9D14QQJ1lO7bWPnsIXcTqfSRuLMUBjJxR/I5ABy9lbikHnDWLXw0qPXqnnFofht2MTa7JIQvQSwKWhtBui5wc4yKZ6eAl1mif14zGvZlHicNxVyN/GkrVbne50GDP7NQPnsw9JhENCywGtfc+HDNjNGNaYy3mK3Sai8B9RuIIvA6IODKkXgjAdphwJ85tG4KUUEzBEhYaB3oDXTisvw+Oqu0YkRI8NY1tdDf9ntU7Bnl3SKIgaKvVXG9WF9XqGD4P5QP1u/d0id+EEJXmo50WNTmbV+2UTfiwHES9zL2WhCejcRMkpWn6wTabPyY7ZjmKkITrckgRrh6aAya2rEBayelHIQGaUgtIvg5A82WNZoHEuEmgnqjmj/fqCfGN5HFV11cF7+DTScmMgA9tgKAIJDvDzewxXonmqvQWwQ6jKRHFlgF9AFVjo7aeD63OVlA28H7hi9PKMu6pNhVbZvbNqwp1yM05lpBJM7Z0vQXizFur/Ax8wTIiZrX8g7KqFzH5lBRMARb/8KOctC8/7nmoHmkoc3eoI50PFq0=
+  file: socket2stdout.linux.amd64
   on:
     repo: bakins/socket2stdout
-    tags: true
+     tags: true
+  skip_cleanup: true
