@@ -1,3 +1,5 @@
 #!/bin/bash
 set -ex
-GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build -o socket2stdout ./cmd/socket2stdout 
+DIR=`pwd`
+cd ./cmd/socket2stdout
+GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build -o ${DIR}/socket2stdout .
