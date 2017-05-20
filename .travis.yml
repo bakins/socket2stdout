@@ -1,0 +1,16 @@
+language: go
+go:
+- 1.8.x
+notifications:
+  email: false
+install:
+- true
+script:
+- "./script/build"
+deploy:
+  provider: releases
+  api_key:
+    file: socket2stdout
+  on:
+    repo: bakins/socket2stdout
+    tags: true
