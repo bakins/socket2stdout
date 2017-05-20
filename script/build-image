@@ -2,7 +2,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd `dirname ${DIR}`
 
-GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build ./cmd/socket2stdout
+./script/build
 
 VERSION=`cat VERSION`
 
