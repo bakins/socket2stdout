@@ -14,5 +14,5 @@ deploy:
   file: socket2stdout.linux.amd64
   on:
     repo: bakins/socket2stdout
-     tags: true
+    tags: true
   skip_cleanup: true
