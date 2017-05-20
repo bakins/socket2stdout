@@ -1,6 +1,8 @@
-#!/bin/bash
-set -ex
-DIR=`pwd`
-ls -al
-cd ./cmd/socket2stdout/
-GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build -o ${DIR}/socket2stdout .
+#!/usr/bin/env bash
+set -e
+NAME=socket2stdout
+ARCH=amd64
+
+for OS in darwin linux; do
+    CGO_ENABLED=0 GOOS=${OS} GOARCH=${ARCH} go build -o ${NAME}.${OS}.${ARCH} ./cmd/${NAME}
+done
