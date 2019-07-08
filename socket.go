@@ -138,7 +138,6 @@ func (s *Server) Run() error {
 
 // Stop will stop the server
 func (s *Server) Stop() {
-	fmt.Println("Stop")
 	s.stopChan <- struct{}{}
 	_ = s.listener.Close()
 }
