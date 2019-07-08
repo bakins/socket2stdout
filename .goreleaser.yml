@@ -1,0 +1,23 @@
+
+builds:
+- env:
+  - CGO_ENABLED=0
+  - GOFLAGS=-mod=vendor
+  goos:
+  - linux
+  - darwin
+  goarch:
+  - amd64
+  main: ./cmd/socket2stdout
+checksum:
+  name_template: 'checksums.txt'
+archives:
+  - wrap_in_directory: true
+snapshot:
+  name_template: "{{ .Tag }}-next"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+    - '^docs:'
+    - '^test:'
