@@ -1,2 +1,3 @@
 socket2stdout.darwin.amd64
 socket2stdout.linux.amd64
+dist/
