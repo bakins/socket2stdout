@@ -20,7 +20,5 @@ github.com/spf13/cobra v0.0.0-20160722081547-f62e98d28ab7 h1:vX79RLf8hJqzYiv0FVg
 github.com/spf13/cobra v0.0.0-20160722081547-f62e98d28ab7/go.mod h1:1l0Ry5zgKvJasoi3XT1TypsSe7PqH0Sj9dhYf7v3XqQ=
 github.com/spf13/pflag v0.0.0-20161024131444-5ccb023bc27d h1:cpV+7T5E6SXMwGmiItJzTK/37mX2aQj1uWCYWtO3q9U=
 github.com/spf13/pflag v0.0.0-20161024131444-5ccb023bc27d/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
-golang.org/x/net v0.0.0-20170114055629-f2499483f923 h1:cLl2p2++IYXqH4YzQ7uIc7QLOa4SU0x1vSy9Da++V94=
-golang.org/x/net v0.0.0-20170114055629-f2499483f923/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
-golang.org/x/sync v0.0.0-20170418210838-de49d9dcd27d h1:whdsq/21HhdWYPc26uzgFIJrHxf6c+yB+LFnjZaawrE=
-golang.org/x/sync v0.0.0-20170418210838-de49d9dcd27d/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
+golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 h1:uVc8UZUe6tr40fFVnUP5Oj+veunVezqYl9z7DYw9xzw=
+golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
